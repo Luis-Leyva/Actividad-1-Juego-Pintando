@@ -9,11 +9,14 @@ foodc=random.choice(colors)
 if foodc==bodyc:
     foodc=random.choice(colors)
 
-
-
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
+
+def moveFood():
+    food.x = randrange(-15, 15) * 10
+    food.y = randrange(-15, 15) * 10
+    ontimer(moveFood, 4500)
 
 def change(x, y):
     "Change snake direction."
@@ -60,5 +63,6 @@ onkey(lambda: change(10, 0), 'Right')
 onkey(lambda: change(-10, 0), 'Left')
 onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
+moveFood()
 move()
 done()
