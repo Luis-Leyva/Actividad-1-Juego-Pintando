@@ -28,5 +28,7 @@ El codigo funciona usando las librerias: freegames, random y turtle
 
 # Cambios realizados
 
-Creación del archivo act3.py - Emilio Fabian
+Creación del archivo act3.py, cambios README.md - Emilio Fabian
 Aumento de velocidad de los fantasmas - Orlando Yair
+Fantasmas mas inteligentes - Andres Gonzalez
+Cambios README - Luis Leyva
