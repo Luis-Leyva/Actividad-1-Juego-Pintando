@@ -74,8 +74,8 @@ def valid(point):
 
 def world():
     "Draw world using path."
-    bgcolor('black')
-    path.color('blue')
+    bgcolor('blue')
+    path.color('green')
 
     for index in range(len(tiles)):
         tile = tiles[index]
@@ -134,7 +134,7 @@ def move():
     update()
 
     for point, course in ghosts:
-        if abs(pacman - point) < 20:
+        if abs(pacman - point) < 5:
             return
 
     ontimer(move, 50)
