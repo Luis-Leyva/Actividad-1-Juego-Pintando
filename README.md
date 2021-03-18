@@ -5,7 +5,7 @@ Orlando Yair Barajas Perez	A01701364
 Luis Omar Leyva Navarrete	  A01570367
 Emilio Fabián Ortiz			    A01733915
 
-# Cómo contribuir
+# ¿Cómo contribuir?
 
 La mejora en la funcionalidad del código puede realizarse sin ninguna restricción de conducta siempre y cuando esto no afecte la integridad del programa
 
