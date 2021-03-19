@@ -57,8 +57,10 @@ def move():
 
     for target in targets:
         if not inside(target):
+            #En el codigo original, aqui paraba ya que habia un return, pero agregamos esta linea para que se regresen las pelotas a la 'x' principal
             target.x = 200
 
+    #Cambiamos el numero original de '50' a '25' para que las pelotas se muevan mas rapido
     ontimer(move, 25)
 
 setup(420, 420, 370, 0)
