@@ -49,7 +49,7 @@ El codigo funciona usando las librerias: freegames, random y turtle
 # Cambios realizados
 
 Creación del archivo act4.py - Luis Leyva 
-Aumento de velocidad de los objetivos - Orlando Yair y Andres Gonzales
+Aumento de velocidad de los objetivos - Orlando Yair y Andres Gonzalez
 Juego infinito - Luis Leyva
 cambios README.md - Emilio Fabian
 
